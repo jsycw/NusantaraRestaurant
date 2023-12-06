@@ -153,10 +153,18 @@ public class Main {
     }
 
     private static void viewMenu() {
+    	
         System.out.println("MENU:");
-        System.out.printf("%-15s%-10s\n", "Menu", "Harga");
+        
+        System.out.println("+===============================+");
+        System.out.printf("| %-15s | %-10s | %n", "Menu", "Harga");
+        System.out.println("+===============================+");
+        
+        
         for (Map.Entry<String, MenuItem> entry : menu.entrySet()) {
-            System.out.printf("%-15s%-10d\n", entry.getKey(), entry.getValue().getPrice());
+        	
+            System.out.printf("| %-15s | %-10d | \n", entry.getKey(), entry.getValue().getPrice());
+    
         }
     }
 
