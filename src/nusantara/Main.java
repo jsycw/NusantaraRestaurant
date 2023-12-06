@@ -44,7 +44,7 @@ public class Main {
 
     private static void initializeMenu() {
         menu.put("nasgor", new Food("Nasi Goreng", 12000));
-        menu.put("jeruk", new Beverage("Jeruk", 5000));
+        menu.put("esjeruk", new Beverage("Es Jeruk", 5000));
         menu.put("mieayam", new Food("Mie Ayam", 10000));
         menu.put("teh", new Beverage("Teh", 3000));
         menu.put("burger", new Food("Burger", 15000));
